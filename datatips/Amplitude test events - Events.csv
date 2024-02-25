@@ -1,0 +1,133 @@
+Properties are hidden!,,,,,
+,,,,,
+Events,,,Properties,,
+Event Category,Event Name,Trigger + Event Description,Property Type,Property Name,Sample Values
+Browse,Home page viewed,,,,
+Browse,Configurator start,,,point,header; title
+Browse,Work with the configurator,любые нажатия или изменения в окне конфигуратора,,mock-up type,sceleton; male; female
+,,,,random using,press; none
+,,,,pressed button,next; color; cut; length; bottom; pocket; cuff; hood; fabric; size; height
+,,,,color,
+,,,,cut,
+,,,,length,
+,,,,bottom,
+,,,,pocket,
+,,,,cuff,
+,,,,hood,
+,,,,fabric,
+,,,,size,
+,,,,height,
+General,contact header pressed,,,,
+General,contact footer pressed,,,,
+General,about us header pressed,,,,
+General,about us footer pressed,,,,
+General,how to order footer pressed,,,,
+General,payment and delivered footer pressed,,,,
+General,review pressed,,,,
+General,police doc pressed,,,,
+General,offer doc pressed,,,,
+General,FAQ 1,what is a product configurator,,,
+General,FAQ 2,how do we sew,,,
+General,FAQ 3,guarantee of quality,,,
+General,FAQ 4,payment & delivery,,,
+General,FAQ 5,ordering,,,
+General,basket press,Нажата клавиша корзины на домашем экране,,,
+Browse,feedback form used,Нажата клавиша submit в форме обратной связи,,Name,
+,,,,Email,
+,,,,Request,
+Browse,product added,нажата клавиша add to card или значек корзины в конфигураторе,,order id,
+,,,,product,см order viewer
+,,,,button type,
+,,,,price,
+Checkout,order viewer,посетитель перешел на данный экран,,order id,
+,,,,product,"products: [
+    {
+      product id: 1,
+      sku: '45360-32',
+      price: 12.60,
+      color: abc,
+      cut: abc
+      length: abc
+      bottom: abc
+      pocket: abc
+      cuff: abc
+      hood: abc
+      fabric: abc
+      size: abc
+      height: abc
+      quantity: 1
+    }"
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,$;free
+,,,,order total price,
+Checkout,product removed,Товар убран из корзины,,order id,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,$;free
+,,,,order total price,
+Checkout,plus items,Увеличено кол-во единиц конкретного товара (нажат +). Для каждого нажатия отдельное событие,,order id,
+,,,,product,
+,,,,order total price,
+,,,,order size,
+Checkout,minus item,Уменьшено кол-во единиц конкретного товара (нажат -). Для каждого нажатия отдельное событие,,order id,
+,,,,product,
+,,,,order total price,
+,,,,order size,
+Checkout,personal info submitted,нажата клавиша далее в шаге указания контактных данных,,order id,
+,,,,Name,
+,,,,Phone,
+,,,,Email,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,$;free
+,,,,order total price,
+Checkout,shipping info submitted,Нажата клавиша далее на экране выбора метода доставки,,order id,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,$;free
+,,,,order total price,
+,,,,shipping method,pickup;tnt_D;tnt_E;DHL
+,,,,shipping country,
+Checkout,payment info submitted,Нажата клавиша далее на экране выбора метода оплаты,,order id,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,
+,,,,order total price,
+,,,,shipping method,
+,,,,payment method,"Card, PayPal, Invoice"
+Checkout,payment status,оплата прошла / не прошла,,order id,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,
+,,,,order total price,
+,,,,shipping method,
+,,,,payment method,
+,,,,status,success; failed; none
+Checkout,order button back press,"нажата клавиша ""назад"" в флоу чекаута",,order id,
+,,,,product,
+,,,,order size,
+,,,,order price,
+,,,,order discount,
+,,,,order delivery price,
+,,,,order total price,
+,,,,shipping method,
+,,,,payment method,
+General,error,"возникла ошибка, с которой столкнулся пользователь",,error type,"checkout, account, browse"
+,,,,error name,"invalid card info, invalid billing info, invalid address"
+,,,,error code,
+Post-sale,Track order press,"Нажата клавиша ""отследить заказ""",,,
+Post-sale,Track order put,введен ID заказа для отслеживания,,ID,
+General,changed language,,,new language,
+General,gift card,,,amount of money,
